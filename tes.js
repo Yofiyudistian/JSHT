@@ -40,13 +40,16 @@ console.log(cetak);
 
 
 //number
-const a = 10;
+let a = 10;
 const b = 5;
 const c = a+b;
 const d = a-b;
 const e = a/b;
 const f = a*b;
 const g = a%b;
+const h = a**b;
+let i = ++a;
+let j = --a;
 const z = 10+10*10;
 const x = (10+10)*10;
 const y = 0.87
@@ -55,6 +58,9 @@ console.log(d);
 console.log(e);
 console.log(f);
 console.log(g);
+console.log(h);
+console.log(i);
+console.log(j);
 console.log(z);
 console.log(x);
 console.log(y);
@@ -126,6 +132,7 @@ const person =
 }
 
 console.log(productDetail)
+console.log(productDetail.kerja)        //undefined = tidak ada
 console.log(productDetail.warna)
 console.log(person)
 console.log(person.name + " lahir pada tahun " + person.tahunLahir);
